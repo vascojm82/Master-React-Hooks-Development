@@ -34,3 +34,8 @@ export let useDynamicTransition = ({increment, delay, length}) => {
 
   return index;
 }
+
+//**************************
+// **Return a callback with useEffect to cleanup** - React will fire the returned callback of a useEffect hook to apply any cleanup code that you need once the effect is completed. 
+// An effect completes in this way, either on the next render of the component, or when the component unmounts from the DOM.
+//*************************
