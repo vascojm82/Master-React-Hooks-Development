@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import Context from '../context';
 
-export const useAppContext = () => {
+export let useAppContext = () => {
   return useContext(Context);
 }
